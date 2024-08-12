@@ -1,0 +1,121 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Tiro+Bangla&family=ZCOOL+QingKe+HuangYou&family=Zain&display=swap");
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/d1/20/e4/d120e49e9952232e0d593ceef62809b9.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.nav{
+    text-decoration: none;
+    color: #31DF9C;
+    font-size: 25px;
+    font-family: "Calistoga", system-ui;
+}
+
+.nav:hover{
+    color: #ecd524;
+    letter-spacing: 5px;
+}
+
+.container{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    color: #31DF9C;
+    font-size: 50px;
+    font-family: "Calistoga", system-ui;
+    text-align: center;
+    padding-bottom: 15px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.container .box-container .box{
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background: #009bb4;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container .box-container .box img{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 30px;
+}
+
+.container .box-container .box h3{
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p{
+    color: #253342;
+    font-size: 15px;
+    padding: 1.8;
+}
+
+.container .box-container .box .btn{
+    display: inline-block;
+    color: blanchedalmond;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: 5px solid #ecd524;
+    margin: 10px 0;
+    margin-top: auto;
+    align-self: flex-start;
+    font-size: 17px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 3px;
+    background: #ecd524;
+    color: #253342;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px #009bb4;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .container{
+        padding: 20px;
+    }
+}
+
+footer{
+    background-color: #253342;
+    padding: 25px 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,124 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Tiro+Bangla&family=ZCOOL+QingKe+HuangYou&family=Zain&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #244855;
+    line-height: 1.5;
+}
+
+.nav{
+    text-decoration: none;
+    color: #31DF9C;
+    font-size: 25px;
+    font-family: "Calistoga", system-ui;
+}
+
+.nav:hover{
+    color: #ecd524;
+    letter-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container .heading{
+    color: aqua;
+    font-size: 50px;
+    font-family: "Calistoga", system-ui;
+    text-align: center;
+    padding-bottom: 15px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    align-items: center;
+    flex: 1 1 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-self: normal;
+    background: #5783db;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover{
+    box-shadow: 0 10px 15px #009bb4;
+    transform: scale(1.05);
+}
+
+.card h4{
+    color: gold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.card p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.card .btn{
+    bottom: 0;
+    font-size: 20px;
+    display: inline-block;
+    border: 5px solid #ecd524;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.card .btn:hover{
+    letter-spacing: 3px;
+    background: #ecd524;
+    color: #253342;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+@media (max-width:768px) {
+    .container{
+        padding: 20px;
+    }
+}
+
+footer{
+    background-color: #253342;
+    padding: 25px 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

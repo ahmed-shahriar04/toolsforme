@@ -1,0 +1,40 @@
+.nav{
+    text-decoration: none;
+    color: #31DF9C;
+    font-size: 25px;
+    font-family: "Calistoga", system-ui;
+}
+
+.nav:hover{
+    color: #ecd524;
+    letter-spacing: 5px;
+}
+
+.container .heading{
+    color: #31DF9C;
+    font-size: 50px;
+    font-family: "Calistoga", system-ui;
+    text-align: center;
+    padding-bottom: 15px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@media (max-width:768px) {
+    .container{
+        padding: 20px;
+    }
+}
+
+footer{
+    background-color: #253342;
+    padding: 25px 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

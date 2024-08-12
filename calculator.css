@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Tiro+Bangla&family=ZCOOL+QingKe+HuangYou&family=Zain&display=swap");
+
+
+*{
+  transition: 0.2s linear;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#myInput {
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 50%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 5px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+
+    margin-left: 130px;
+  }
+  
+  #myTable {
+    background: teal;
+    opacity: 0.8;
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+
+  #myTable:hover{
+    opacity: 5;
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: center; /* Left-align text */
+    padding: 12px;
+    border: 5px solid #dddddd; /* Add padding */
+  }
+  
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header{
+    background-color: #007BFF;
+  }
+   #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #17A2B8;
+  }
+
+td,tr a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.nav{
+  text-decoration: none;
+  color: #31DF9C;
+  font-size: 25px;
+  font-family: "Calistoga", system-ui;
+}
+
+.nav:hover{
+  color: #ecd524;
+  letter-spacing: 5px;
+}
+
+.container .heading{
+  color: #31DF9C;
+  font-size: 50px;
+  font-family: "Calistoga", system-ui;
+  text-align: center;
+  padding-bottom: 15px;
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width:768px) {
+  .container{
+      padding: 20px;
+  }
+}
+
+footer{
+  background-color: #253342;
+  padding: 25px 5px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
